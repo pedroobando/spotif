@@ -39,11 +39,6 @@ export default {
     player: new Audio(),
     songs: [
       {
-        title: 'Algun dia',
-        artist: 'Soda Stereo',
-        src: require('./assets/mp3/Soda Stereo - Algun Dia [Some Day One Day].mp3')
-      },
-      {
         title: 'Cuando pase el temblor',
         artist: 'Soda Stereo',
         src: require('./assets/mp3/Soda Stereo - Cuando pase el temblor.mp3')
@@ -52,16 +47,6 @@ export default {
         title: 'De Música Ligera',
         artist: 'Soda Stereo',
         src: require('@/assets/mp3/Soda Stereo - De Música Ligera.mp3')
-      },
-      {
-        title: 'Un Millon De Años Luz',
-        artist: 'Soda Stereo',
-        src: require('@/assets/mp3/Soda Stereo - Un Millon De Años Luz.mp3')
-      },
-      {
-        title: 'Persiana Americana',
-        artist: 'Gustavo Serati',
-        src: require('@/assets/mp3/Soda Stereo Persiana Americana.mp3')
       }
     ]
   }),
